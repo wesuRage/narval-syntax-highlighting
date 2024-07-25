@@ -1,9 +1,10 @@
 {
-  "name": "narvalsyntaxhighlight",
+  "name": "narvalsyntax",
+  "publisher": "wesuRage",
   "displayName": "Narval Syntax Highlight",
   "description": "Syntax Highlighting for the Narval programming language.",
   "repository": "https://github.com/wesuRage/narval-syntax-highlighting",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.91.0"
   },
