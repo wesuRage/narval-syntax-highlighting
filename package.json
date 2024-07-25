@@ -2,6 +2,7 @@
   "name": "narvalsyntaxhighlight",
   "displayName": "Narval Syntax Highlight",
   "description": "Syntax Highlighting for the Narval programming language.",
+  "repository": "https://github.com/wesuRage/narval-syntax-highlighting",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.91.0"
@@ -10,16 +11,25 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "nv",
-      "aliases": ["narval", "nv"],
-      "extensions": [".nv"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "nv",
-      "scopeName": "source.nv",
-      "path": "./syntaxes/narval.tmLanguage.json"
-    }]
+    "languages": [
+      {
+        "id": "nv",
+        "aliases": [
+          "narval",
+          "nv"
+        ],
+        "extensions": [
+          ".nv"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "nv",
+        "scopeName": "source.nv",
+        "path": "./syntaxes/narval.tmLanguage.json"
+      }
+    ]
   }
 }
